@@ -1,0 +1,70 @@
+@CHARSET "ISO-8859-1";
+
+body { margin: 0px; }
+
+.header { 
+	width: 100%;
+	background-color: grey;
+	pointer-events: none;
+	background: transparent url(' /Images/HeaderBackground.png') no-repeat right top;
+	background-size: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	min-height: 292px;
+	z-index: 999;
+}
+
+.blocking-bar { height: 292px;}
+.logo-holder { vertical-align: bottom; }
+.logo { 
+	width: 20%;
+	padding-top: 100px;
+	padding-left: 30px;
+}
+
+.login-bar { width: 15%; text-align: right; padding-right: 20px; display: block; float: right;}
+
+.tab-holder { position: relative; }
+
+.content-tab { position: absolute; background-color: #FFFFFF; }
+
+.active-tab { z-index: 99; }
+.passive-tab { z-index: 1; }
+
+.top-nav-bar { width: 100%; text-align: center; display: block; }
+
+.top-nav-link {
+	width: 16%;
+	text-align: inherit;
+	color: #FFFFFF;
+	font-size: 25px;
+	display: block;
+	font-weight: bold;
+	text-decoration: none;
+	float: left;
+	z-index: 999999;
+}
+
+.search-bar { background-color: #7F7F7F; width: 80%; color: #FFFFFF; padding-right: 20px; padding-top 10px;}
+
+#top-nav-search { background-colo: #7F7F7F; }
+
+.footer { 
+	Width: 100%;
+	Background-color: #6C655A;
+	border-top: 4px solid #707070;
+	margin-top: 10px;
+}
+
+.footer-columns { width: 75%; float: right; padding-top: 50px; }
+.footer-column { width: 19%; display: inline-block; }
+.footer-column-header {
+	color: #FFFFFF;
+	
+	font-size: 18px;
+	font-weight: bold;
+}
+.footer-column-item a { color: #FFFFFF; text-decoration: none; }
+.footer-column-items { list-style-type: none; padding-left: 0px; }
+.footer-logo { width: 25%; }
